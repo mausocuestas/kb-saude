@@ -1,4 +1,4 @@
-# Stories - Base de Conhecimento de Saúde Pública
+# Stories - Base de Conhecimento da Saúde
 
 Este diretório contém todas as histórias de usuário do projeto **kb-saude**, organizadas por épicos.
 

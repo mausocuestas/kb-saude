@@ -1,0 +1,70 @@
+/* Fix sidebar selected item visibility */
+/* The selected item should have visible text on its background */
+[data-theme='light'] a[aria-current='page'],
+[data-theme='light'] a[aria-current='page']:hover,
+[data-theme='light'] a[aria-current='page']:focus {
+	color: white !important;
+	background-color: var(--sl-color-text-accent) !important;
+}
+
+[data-theme='dark'] a[aria-current='page'],
+[data-theme='dark'] a[aria-current='page']:hover,
+[data-theme='dark'] a[aria-current='page']:focus {
+	color: var(--sl-color-black) !important;
+	background-color: var(--sl-color-text-accent) !important;
+}
+
+/* Ensure sidebar links have good contrast */
+.sidebar a[aria-current='page'] {
+	font-weight: 600;
+}
+
+/* Removed H1 hiding - keeping document titles visible */
+
+/* Increase content width by 15% (default is 45rem = 720px, new is ~828px) */
+:root {
+	--sl-content-width: 51.75rem; /* 45rem * 1.15 */
+}
+
+/* Compact pagination/navigation cards at bottom of pages */
+.pagination-links a {
+	padding: 0.5rem 0.75rem !important;
+	min-height: auto !important;
+}
+
+/* Document title in pagination cards - 16px semibold */
+.pagination-links .link-title {
+	font-size: 1rem !important; /* 16px */
+	font-weight: 600 !important; /* semibold */
+}
+
+/* Hide arrow icons in pagination */
+.pagination-links svg,
+.pagination-links .icon {
+	display: none !important;
+}
+
+/* TOC (Table of Contents) active section highlighting */
+/* Style the active/current section in the TOC */
+.right-sidebar nav a[aria-current='true'],
+.right-sidebar nav a.current-heading {
+	font-weight: 700 !important; /* Bold */
+	color: var(--sl-color-text-accent) !important;
+}
+
+/* Light theme - stronger accent color for active TOC item */
+[data-theme='light'] .right-sidebar nav a[aria-current='true'],
+[data-theme='light'] .right-sidebar nav a.current-heading {
+	color: var(--sl-color-accent-high) !important;
+}
+
+/* Dark theme - brighter accent for active TOC item */
+[data-theme='dark'] .right-sidebar nav a[aria-current='true'],
+[data-theme='dark'] .right-sidebar nav a.current-heading {
+	color: var(--sl-color-accent) !important;
+}
+
+/* Add subtle transition for smooth color changes */
+.right-sidebar nav a {
+	transition: color 0.2s ease, font-weight 0.2s ease;
+}

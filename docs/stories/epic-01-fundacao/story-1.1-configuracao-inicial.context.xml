@@ -34,7 +34,7 @@
     <docs>
       <doc>
         <path>docs/PR.md</path>
-        <title>PRD: Base de Conhecimento de Saúde Pública</title>
+        <title>PRD: Base de Conhecimento da Saúde</title>
         <section>Épico 1 - História 1.1</section>
         <snippet>Primeira história do projeto que estabelece a fundação da plataforma. Define a configuração inicial do Astro Starlight como base técnica.</snippet>
       </doc>

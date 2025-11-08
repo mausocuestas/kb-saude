@@ -1,4 +1,4 @@
-# PRD: Base de Conhecimento de Saúde Pública
+# PRD: Base de Conhecimento da Saúde
 
 ## 1. Metas e Contexto de Fundo
 

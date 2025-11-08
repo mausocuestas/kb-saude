@@ -1,4 +1,4 @@
-# Documento de Arquitetura Fullstack: Base de Conhecimento de Saúde Pública
+# Documento de Arquitetura Fullstack: Base de Conhecimento da Saúd
 
 ## 1. Introdução
 Este documento descreve a arquitetura fullstack para a Base de Conhecimento, incluindo frontend, camada de dados, CMS e infraestrutura. O projeto será iniciado a partir do template Astro Starlight.
