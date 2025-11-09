@@ -24,7 +24,34 @@ const formattedDate = lastUpdated.toLocaleDateString('pt-BR', {
 	</p>
 </div>
 
+<script>
+// Hide duplicate metadata components and position after H1
+if (typeof window !== 'undefined') {
+	window.addEventListener('DOMContentLoaded', () => {
+		const metadataComponents = document.querySelectorAll('[data-metadata-component]');
 
+		// Hide duplicates
+		if (metadataComponents.length > 1) {
+			for (let i = 1; i < metadataComponents.length; i++) {
+				(metadataComponents[i] as HTMLElement).style.display = 'none';
+			}
+		}
+
+		// Move metadata to appear after the first H1
+		const firstMetadata = metadataComponents[0] as HTMLElement;
+		if (firstMetadata) {
+			const container = firstMetadata.closest('.sl-container');
+			if (container) {
+				const firstH1 = container.querySelector('h1');
+				if (firstH1 && firstH1.parentNode) {
+					// Move metadata right after the H1
+					firstH1.parentNode.insertBefore(firstMetadata, firstH1.nextSibling);
+				}
+			}
+		}
+	});
+}
+</script>
 
 <style>
 	.document-metadata-simple {
