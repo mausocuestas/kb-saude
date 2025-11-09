@@ -1,6 +1,7 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 import DocumentMetadata from '../DocumentMetadata.astro';
+import Feedback from '../Feedback.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -67,9 +68,6 @@ try {
 <!-- Reimplemented ContentPanel with metadata injection -->
 <div class="content-panel">
 	<div class="sl-container">
-		<!-- Render the page content passed via slot (includes title) -->
-		<slot />
-
 		<!-- Inject metadata component - JavaScript will reposition it after the title -->
 		{metadata && (
 			<DocumentMetadata
@@ -79,6 +77,15 @@ try {
 				lastUpdated={metadata.lastUpdated}
 			/>
 		)}
+
+		<!-- Render the page content passed via slot (includes title) -->
+		<slot />
+
+		<!-- Separator before feedback -->
+		<div class="feedback-separator"></div>
+
+		<!-- Feedback Widget -->
+		{Astro.url.pathname !== '/' && <Feedback />}
 	</div>
 </div>
 
@@ -102,6 +109,13 @@ try {
 			.sl-container {
 				margin-inline: var(--sl-content-margin-inline, auto);
 			}
+		}
+
+		.feedback-separator {
+			width: 100%;
+			height: 1px;
+			background: var(--sl-color-hairline);
+			margin: 3rem 0 0 0;
 		}
 	}
 </style>
