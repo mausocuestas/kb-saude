@@ -24,50 +24,6 @@ visibilidade: "Pública"
 ---
 
 
-
-**SUMÁRIO**
-
-[**1\. INTRODUÇÃO	2**](#1.-introdução)
-
-[**2\. CONSIDERAÇÕES GERAIS	2**](#2.-considerações-gerais)
-
-[**3\. CANAIS DE COMUNICAÇÃO E PRAZOS	2**](#3.-canais-de-comunicação-e-prazos)
-
-[**4\. FLUXOGRAMA DO PROCESSO DE ENCAMINHAMENTO	3**](#4.-fluxograma-do-processo-de-encaminhamento)
-
-[**5\. PROCEDIMENTOS GERAIS DE ENCAMINHAMENTO E CONTRARREFERÊNCIA	5**](#5.-procedimentos-gerais-de-encaminhamento-e-contrarreferência)
-
-[**6\. CRITÉRIOS ESPECÍFICOS POR ESPECIALIDADE	6**](#6.-critérios-específicos-por-especialidade)
-
-[6.1. ESTOMATOLOGIA	6](#6.1.-estomatologia)
-
-[6.2. PERIODONTIA	7](#6.2.-periodontia)
-
-[6.3. ENDODONTIA	7](#6.3.-endodontia)
-
-[6.4. PACIENTES COM NECESSIDADES ESPECIAIS	8](#6.4.-pacientes-com-necessidades-especiais)
-
-[6.5. CIRURGIA ORAL MENOR	8](#6.5.-cirurgia-oral-menor)
-
-[**7\. GLOSSÁRIO DE TERMOS IMPORTANTES	9**](#7.-glossário-de-termos-importantes)
-
-[**8\. REFERÊNCIA BIBLIOGRÁFICA	9**](#8.-referência-bibliográfica)
-
-[**9\. ANEXOS	10**](#9.-anexos)
-
-[Anexo A: Modelo de Ficha de Referência/Contrarreferência (Campos Obrigatórios)	10](#anexo-a:-modelo-de-ficha-de-referência/contrarreferência-\(campos-obrigatórios\))
-
-[Anexo B: Checklist de Verificação Pré-Encaminhamento](#anexo-b:-checklist-de-verificação-pré-encaminhamento-checklist-para-endodontia)  
-[Checklist para Estomatologia	11](#anexo-b:-checklist-de-verificação-pré-encaminhamento-checklist-para-endodontia)
-
-[Checklist para Periodontia	12](#checklist-para-periodontia)
-
-[Checklist para Pacientes com Necessidades Especiais (PNE)	13](#checklist-para-pacientes-com-necessidades-especiais-\(pne\))
-
-[Checklist para Cirurgia Oral Menor	14](#checklist-para-cirurgia-oral-menor)
-
----
-
 ### **1\. INTRODUÇÃO** {#introducao}
 
 O Centro de Especialidades Odontológicas (CEO) é a unidade de referência para o atendimento odontológico de média complexidade no âmbito do Sistema Único de Saúde (SUS), recebendo pacientes encaminhados pela Atenção Primária.
