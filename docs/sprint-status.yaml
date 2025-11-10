@@ -52,7 +52,7 @@ development_status:
 
   # Epic 2: Implementação do Sistema de Feedback e Governança
   epic-2: contexted
-  2-1-componente-feedback: review
+  2-1-componente-feedback: done
   2-2-submissao-feedback: drafted
   2-3-notificacao-curadores: drafted
   2-4-status-visual-documento: drafted

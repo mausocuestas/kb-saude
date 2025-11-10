@@ -1,6 +1,6 @@
 # Story 2.1: Criação do Componente de Feedback
 
-**Status:** review
+**Status:** done
 **Epic:** Épico 2 - Implementação do Sistema de Feedback e Governança
 **Priority:** High
 **Estimated Effort:** 6 horas
@@ -90,7 +90,8 @@ Como um **profissional de saúde**, eu quero **avaliar e comentar sobre a utilid
 
 ### Completion Notes
 
-**Completed:** 2025-11-09
+**Completed:** 2025-11-10
+**Definition of Done:** All acceptance criteria met, code reviewed, tests passing
 **Updated:** 2025-11-10 - Fixed component placement per user requirements
 
 ✅ All acceptance criteria met:
