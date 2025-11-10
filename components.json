@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "new-york",
+  "style": "default",
   "rsc": false,
   "tsx": true,
   "tailwind": {
@@ -10,33 +10,7 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "~/components",
-    "utils": "~/lib/utils",
-    "ui": "~/components/ui",
-    "lib": "~/lib",
-    "hooks": "~/hooks"
-  },
-  "registries": {
-    "@ss-components": {
-      "url": "https://shadcnstudio.com/r/components/{name}.json",
-      "params": {
-        "email": "${EMAIL}",
-        "license_key": "${LICENSE_KEY}"
-      }
-    },
-    "@ss-themes": {
-      "url": "https://shadcnstudio.com/r/themes/{name}.json",
-      "params": {
-        "email": "${EMAIL}",
-        "license_key": "${LICENSE_KEY}"
-      }
-    },
-    "@ss-blocks": {
-      "url": "https://shadcnstudio.com/r/blocks/{name}.json",
-      "params": {
-        "email": "${EMAIL}",
-        "license_key": "${LICENSE_KEY}"
-      }
-    }
+    "components": "@/components",
+    "utils": "@/lib"
   }
 }

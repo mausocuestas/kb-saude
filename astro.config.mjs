@@ -38,6 +38,7 @@ export default defineConfig({
 			],
 			components: {
 				ContentPanel: './src/components/overrides/ContentPanel.astro',
+				Footer: './src/components/overrides/Footer.astro',
 			},
 			pagefind: {
 				forceLanguage: 'pt-br',
